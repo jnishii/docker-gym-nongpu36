@@ -1,0 +1,21 @@
+1.0.5 (2020/6/21)
+- now use tini
+- call jupyter.sh from CMD
+- brush up entire Dockerfile
+
+1.0.4 (2020/6/16)
+- import fix-permissions from jupyter/docker-stacks
+- put scripts under /usr/local/bin
+
+1.0.3 (2020/6/15)
+- some testing...
+
+1.0.2(2020/6/11)
+- rebuild with jupyter_client==5.3.1 to avoid kernel error on Windows 10
+
+1.0.1 (2020/4/9)
+- rebuild for jupyter update
+
+1.0 (2019/12/22)
+- fix bug of gridworld
+

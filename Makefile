@@ -19,10 +19,10 @@ run:
 	bin/run.sh
 
 save:
-	docker save jnishii/docker-gym-nongpu -o gymbox.tar
+	docker save ${IMAGE} -o gymbox36.tar
 
 load:
-	docker load -i gymbox.tar
+	docker load -i gymbox36.tar
 
 ps:
 	docker ps -a
