@@ -74,6 +74,10 @@ RUN cd /tmp/gym-maze && python setup.py install
 # Step 4: install misc packages
 RUN python -m pip install dfply
 
+# Step 5: install additional kernel for iPython
+RUN pip install bash_kernel
+RUN python -m bash_kernel.install 
+
 # Install graphic driver
 RUN apt-get install -y libgl1-mesa-dri libglx0 libgl1 --no-install-recommends
 RUN dbus-uuidgen > /etc/machine-id
