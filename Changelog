@@ -1,3 +1,6 @@
+1.0.6 (2021/6/3)
+- downgrade gym from 0.17.2 to 0.17.1 because 0.17.2 causes an animation rendering error, "TypeError: get_data() missing 2 required positional arguments: 'format' and 'pitch'". Solution is given by https://github.com/YutaroOgawa/Deep-Reinforcement-Learning-Book/issues/9
+
 1.0.5 (2020/6/21)
 - now use tini
 - call jupyter.sh from CMD

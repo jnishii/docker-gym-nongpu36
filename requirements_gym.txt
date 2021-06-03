@@ -1,13 +1,13 @@
+# openAI Gym
+gym==0.17.1
+gym[atari]
+gym[box2d]
+
 # openAI Gym requirements
 imageio
 PyOpenGL
 piglet
-pyglet==1.3.2
-
-# openAI Gym
-gym
-gym[atari]
-gym[box2d]
+pyglet
 
 # PyGame
 pygame
