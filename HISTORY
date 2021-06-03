@@ -1,3 +1,0 @@
-1.0.6 (2020/11/28)
-- branch from docker-gym-nongpu 1.0.5
-- add bash kernel for iPython
